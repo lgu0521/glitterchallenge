@@ -1,0 +1,38 @@
+{
+  "../node_modules/next/dist/client/index.js -> ../pages/_app": {
+    "id": "../node_modules/next/dist/client/index.js -> ../pages/_app",
+    "files": [
+      "static/chunks/node_modules_next_dist_pages__app_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/index.js -> ../pages/_error": {
+    "id": "../node_modules/next/dist/client/index.js -> ../pages/_error",
+    "files": [
+      "static/chunks/node_modules_next_dist_pages__error_js.js"
+    ]
+  },
+  "../templates/DefaultLayout.tsx -> ../organisms/BottomNavigation": {
+    "id": "../templates/DefaultLayout.tsx -> ../organisms/BottomNavigation",
+    "files": [
+      "static/chunks/organisms_BottomNavigation_tsx.js"
+    ]
+  },
+  "../templates/DefaultLayout.tsx -> ../organisms/UserProfile": {
+    "id": "../templates/DefaultLayout.tsx -> ../organisms/UserProfile",
+    "files": [
+      "static/chunks/organisms_UserProfile_tsx.js"
+    ]
+  },
+  "index.tsx -> ../organisms/NoticeCard": {
+    "id": "index.tsx -> ../organisms/NoticeCard",
+    "files": [
+      "static/chunks/organisms_NoticeCard_tsx.js"
+    ]
+  },
+  "index.tsx -> ../organisms/PostList": {
+    "id": "index.tsx -> ../organisms/PostList",
+    "files": [
+      "static/chunks/organisms_PostList_tsx.js"
+    ]
+  }
+}
