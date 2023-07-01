@@ -7,7 +7,7 @@ import Document, {
 } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 import "../axios.setting";
-import BottomNavigation from "../organisms/BottomNavigation";
+import { Analytics } from '@vercel/analytics/react';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -42,6 +42,7 @@ class MyDocument extends Document {
           <Head></Head>
           <Main />
           <NextScript />
+          <Analytics />
         </body>
       </Html>
     );
